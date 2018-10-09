@@ -5,27 +5,26 @@ mb_internal_encoding("UTF-8");
 
 try{
     if (filter_input(INPUT_POST, "mailaddress") && filter_input(INPUT_POST, "mailtext")) {
-        $_POST["mailaddress"];
+        $mailAddress = $_POST["mailaddress"];
+        $mailText = $_POST["mailtext"];
+
+        if (mb_send_mail(
+            "xxxx@hogehoge.com",
+            "ポートフォリオサイトからメッセージ",
+            $mailText,
+            "From: " . $mailAddress
+        )) {
+            echo "メールを送信しました";
+            exit;
+        } else {
+            $e = "メールを送信できませんでした";
+            throw new Exception($e);
+        };
+
     }else{
         $e = "入力欄をすべて入力してください";
         throw new Exception($e);
     }
-
-    $mailaddress = $_POST["mailaddress"];
-    $mailtext = $_POST["mailtext"];
-
-   // var_dump($mailaddress,$mailtext);
-
-    if(mb_send_mail(
-        "asriel6666@gmail.com",
-        "ポートフォリオサイトからメッセージ",
-        $mailtext,
-        "From: ".$mailaddress
-    )){
-        echo "メールを送信しました";
-    }else{
-        echo "メールを送信できませんでした";
-    };
 
 }catch(Exception $e){
     header("Content-Type: text/plain; charset=utf8",true,500);

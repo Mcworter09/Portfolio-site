@@ -465,8 +465,4 @@
         cursor: pointer;
     }
 
-    .main-contact-form-submit :hover{
-        transition: all 0.3s ease 0s;
-        transform:scale(1.03,1.03);
-    }
 }
