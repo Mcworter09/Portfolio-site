@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+
+.wrapper {
+    box-sizing: border-box;
+}
+
+.portfolio{
+    font-size:62.5%;
+    background:#FFF;
+    letter-spacing: 1.8px;
+}
+
+.left{
+    padding:3rem;
+    height: 47rem;
+    width:100%;
+    font-size: 1.1rem;
+    color:#FFF;
+    background-color:#03A9F4;
+    box-sizing: border-box;
+}
+
+.left-head{
+    padding:1rem;
+    text-align: center;
+}
+
+.left-body-head{
+    padding:1rem;
+    font-family: 'Dosis',sans-serif;
+    text-align: center;
+    font-size:1rem;
+}
+
+.left-body-main{
+    margin: auto;
+    width: 19rem;
+}
+
+.left-footer{
+    margin:3rem 0;
+    text-align: center;
+    text-decoration: none
+}
+
+.prof-img{
+    width: 12rem; height: 12rem;
+    border-radius:50%;
+}
+
+.github-img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.github-img :hover{
+    transition: all 0.3s ease 0s;
+    transform:scale(1.03,1.03);
+}
+
+@media screen and (min-width:900px) and ( max-width:1280px) {
+
+    .wrapper {
+        background-color: #03A9F4;
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .portfolio{
+        font-size:62.5%;
+        background:#FFF;
+        letter-spacing: 1.8px;
+    }
+
+    .left{
+        padding:3rem;
+        height: 47rem;
+        width:50%;
+        font-size: 1.1rem;
+        color:#FFF;
+        background-color:#03A9F4;
+        box-sizing: border-box;
+    }
+
+    .left-head{
+        padding:1rem;
+        text-align: center;
+    }
+
+    .left-body-head{
+        padding:1rem;
+        font-family: 'Dosis',sans-serif;
+        text-align: center;
+        font-size:1rem;
+    }
+
+    .left-body-main{
+        margin: auto;
+        width: 19rem;
+    }
+
+    .left-footer{
+        margin:3rem 0;
+        text-align: center;
+        text-decoration: none
+    }
+
+    .prof-img{
+        width: 12rem; height: 12rem;
+        border-radius:50%;
+    }
+
+    .github-img{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .github-img :hover{
+        transition: all 0.3s ease 0s;
+        transform:scale(1.03,1.03);
+    }
+
+
+}
+
+@media screen and (min-width:1280px){
+
+    .wrapper {
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .portfolio{
+        font-size:62.5%;
+        background:#FFF;
+        letter-spacing: 1.8px;
+    }
+
+    .left{
+        height:100vh;
+        width:400px;
+        padding:3rem;
+        font-size: 1.1rem;
+        color:#FFF;
+        background-color:#03A9F4;
+        box-shadow:1px 1px 10px #555;
+    }
+
+    .left-head{
+        padding:1rem;
+        text-align: center;
+    }
+
+    .left-body-head{
+        padding:1rem;
+        font-family: 'Dosis',sans-serif;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .left-body-main{
+        margin: auto;
+        width: 19rem;
+    }
+
+    .left-footer{
+        margin:3rem 0;
+        text-align: center;
+        text-decoration: none
+    }
+
+    .prof-img{
+        width: 12rem; height: 12rem;
+        border-radius:50%;
+    }
+
+    .github-img{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .github-img :hover{
+        transition: all 0.3s ease 0s;
+        transform:scale(1.03,1.03);
+    }
+}

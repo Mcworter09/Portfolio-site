@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/left.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Mcworter09</title>
+</head>
+
+<body class="portfolio">
+    <div class="wrapper">
+        <div class="left">
+            <div class="left-head">
+                <img class="prof-img" src="img/prof.jpg" alt="Card image">
+            </div>
+            <div class="left-body">
+                <div class="left-body-head">
+                    <h1>Mcworter09</h1>
+                    <p>Age 24</p>
+                    <p>Sendai,Japan</p>
+                </div>
+                <div class="left-body-main">
+                    <p>2018年2月からプログラミングを再開。現在は独学でPHPとJavaScriptを使ってWEBアプリを作ってます。</p>
+                </div>
+            </div>
+            <div class="left-footer">
+                <a href="https://github.com/Mcworter09">
+                    <img class="github-img" src="img/GitHub.png" alt="GitHub">
+                </a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main-content">
+                <h2>Skills</h2>
+                <div class="main-content-skills">
+                    <canvas class="main-content-skills-graph"id="skills" height="100%"></canvas>
+                </div>
+            </div>
+            <div class="main-like">
+                <h2>Like</h2>
+                <div class="main-like-content">
+                    <img src="img/game.png" alt="ゲーム">
+                    <img src="img/bordgame.png" alt="ギター">
+                    <img src="img/guitar.png" alt="ギター">
+                </div>
+            </div>
+            <div class="main-portfolio">
+                <h2>Portfolio</h2>
+                <div class="main-portfolio-content">
+                    <a class="main-portfolio-content-link" href="https://mcworter-crudbbs.herokuapp.com">
+                        <img class="img-portfolio" src="img/crud.png" alt="CRUD掲示板">
+                    </a>
+                    <p>PHP/Mysql/BootStrap4</p>
+                    <p>処女作。CRUD機能つけました。</p>
+                </div>
+            </div>
+            <div class="main-contact">
+                <h2>Contact</h2>
+                <form class="main-contact-form" action="php/form.php" method="post" accept-charset="UTF-8">
+                    <br>
+                    <input class="main-contact-form-input" type="email" name="mailaddress" placeholder="Your mail address">
+                    <br>
+                    <label class="main-contact-form-label" for="mailaddress"></label>
+                    <br>
+                    <textarea class="main-contact-form-textarea" type="text" name="mailtext" rows="5"></textarea>
+                    <br>
+                    <button class="main-contact-form-submit" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

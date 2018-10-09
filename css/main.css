@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+.main{
+    font-family: 'Dosis',sans-serif;
+    color: #FFF;
+        text-align: center;
+}
+
+.img-portfolio{
+    height:auto;
+    width:120px;
+}
+
+.main-content{
+    margin: 0;
+    padding: 1rem;
+    height: 30%;
+    align-content: start;
+    vertical-align: top;
+    background-color: #F06292;
+}
+
+.main-content h2{
+    padding: 1rem 1rem 0 1rem;
+    font-size: 2rem;
+}
+
+.main-content-skills{
+    padding: 1rem;
+    font-size:1rem;
+    vertical-align: top;
+}
+
+.main-like{
+    margin: 0;
+    padding: 1rem 1rem 3rem;
+    height: 30%;
+    align-content: start;
+    vertical-align: top;
+    background-color: #26A69A;
+}
+
+.main-like h2{
+    margin: 0 0 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.main-like-content{
+    font-size: 1rem;
+}
+
+.main-like-content img{
+    margin: 0.5rem;
+    height: 100px;
+    width: auto;
+}
+
+.main-like-content img:hover{
+    transition: all 0.3s ease 0s;
+    transform:scale(1.05,1.05);
+}
+
+.main-portfolio{
+    margin: 0;
+    padding: 1rem;
+    height: 30%;
+    background-color: #FFA726;
+}
+
+.main-portfolio h2{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.main-portfolio-content{
+    margin: 1rem auto;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    vertical-align: middle;
+    transform: 0 0 4px 0;
+}
+
+.main-portfolio-content a{
+    text-decoration: none;
+}
+
+.main-portfolio-content p{
+    margin: 1rem auto;
+    font-size: 1.1rem;
+    color: #FFF;
+    text-align: center;
+}
+
+.main-portfolio-content-link{
+    height:auto;
+    width:auto;
+}
+
+.main-portfolio-content-link :hover{
+    transition: all 0.3s ease 0s;
+    transform:scale(1.03,1.03);
+}
+
+.main-contact{
+    margin: 0;
+    padding: 1rem;
+    height: 30%;
+    background-color: #039BE5;
+}
+
+.main-contact h2{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.main-contact-form-input{
+    font-size: 1rem;
+    padding: 0.4rem;
+    width:60%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: #555;
+}
+
+.main-contact-form-textarea{
+    width:60%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: inner #555;
+}
+
+.main-contact-form-submit{
+    margin: 1rem;
+    width:20%;
+    color: #FFF;
+    font-size: 1rem;
+    border: solid 1px ;
+    border-radius: 3px;
+    background-color: #039BE5;
+    cursor: pointer;
+}
+
+@media screen and (min-width:900px) and ( max-width:1280px) {
+
+    .main{
+        font-family: 'Dosis',sans-serif;
+        color: #FFF;
+        text-align: center;
+        width: 50%;
+        flex: 1;
+    }
+
+    .img-portfolio{
+        height:auto;
+        width:120px;
+    }
+
+    .main-content{
+        margin: 0;
+        padding: 1rem;
+        height: 25rem;
+        align-content: start;
+        background-color: #F06292;
+        border-radius: 0px;
+    }
+
+    .main-content h2{
+        padding: 1rem 1rem 0 1rem;
+        font-size: 2rem;
+    }
+
+    .main-content-skills{
+        margin-top:2.5rem;
+        padding: 1rem;
+        font-size:1rem;
+        vertical-align: top;
+    }
+
+    .main-like{
+        margin: 0;
+        padding: 1rem;
+        height: 25rem;
+        align-content: start;
+        vertical-align: top;
+        background-color: #26A69A;
+        border-radius: 0;
+    }
+
+    .main-like h2{
+        margin: 0 0 3rem;
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    .main-like-content img{
+        margin: 0.5rem;
+        height: 100px;
+        width: auto;
+    }
+
+    .main-like-content{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .main-like-content img:hover{
+        transition: all 0.3s ease 0s;
+        transform:scale(1.05,1.05);
+    }
+
+    .main-portfolio{
+        margin: 0;
+        padding: 1rem;
+        height: 25rem;
+        background-color: #FFA726;
+        border-radius: 0;
+    }
+
+    .main-portfolio h2{
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    .main-portfolio-content{
+        margin: 1rem auto;
+        padding: 1rem 0;
+        width: 20rem;
+        text-align: center;
+        vertical-align: middle;
+        transform: 0 0 4px 0;
+    }
+
+    .main-portfolio-content a{
+        text-decoration: none;
+    }
+
+    .main-portfolio-content p{
+        margin: 1rem auto;
+        font-size: 1.1rem;
+        color: #FFF;
+        text-align: center;
+    }
+
+    .main-portfolio-content-link{
+        height:auto;
+        width:auto;
+    }
+
+    .main-portfolio-content-link :hover{
+        transition: all 0.3s ease 0s;
+        transform:scale(1.03,1.03);
+    }
+
+    .main-contact{
+        margin: 0;
+        padding: 1rem;
+        height: 25rem;
+        background-color: #039BE5;
+        border-radius: 3px;
+    }
+
+    .main-contact h2{
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    .main-contact-form-input{
+        font-size: 1rem;
+        padding: 0.4rem;
+        width:60%;
+        border: none;
+        border-radius: 3px;
+        box-shadow: #555;
+    }
+
+    .main-contact-form-textarea{
+        width:60%;
+        padding: 0.4rem;
+        font-size: 1rem;
+        border: none;
+        border-radius: 3px;
+        box-shadow: inner #555;
+    }
+
+    .main-contact-form-submit{
+        margin: 1rem;
+        width:20%;
+        color: #FFF;
+        font-size: 1rem;
+        border: solid 1px ;
+        border-radius: 3px;
+        background-color: #039BE5;
+        cursor: pointer;
+    }
+
+}
+
+
+@media screen and (min-width:1280px) {
+
+    .main{
+        font-family: 'Dosis',sans-serif;
+        padding:2rem;
+        flex:1;
+        color: #FFF;
+    }
+
+    .img-portfolio{
+        height:auto;
+        width:120px;
+    }
+
+    .main-content{
+        margin: 0 4% 4% 0;
+        padding: 1rem;
+        width:48%;
+        height:46%;
+        align-content: start;
+        vertical-align: top;
+        background-color: #F06292;
+        box-shadow:1px 1px 10px #555;
+        float: left;
+        border-radius: 3px;
+    }
+
+    .main-content h2{
+        padding: 1rem 1rem 0 1rem;
+        font-size: 2rem;
+    }
+
+    .main-content-skills{
+        margin-top:2.5rem;
+        padding: 1rem;
+        font-size:1rem;
+        vertical-align: top;
+    }
+
+    .main-like{
+        margin: 0 0 4% 0;
+        padding: 1rem;
+        width:48%;
+        height:46%;
+        align-content: start;
+        vertical-align: top;
+        background-color: #26A69A;
+        box-shadow:1px 1px 10px #555;
+        float: left;
+        border-radius: 3px;
+    }
+
+    .main-like h2{
+        margin: 0 0 2rem;
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    .main-like-content{
+        margin: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .main-like-content img{
+        margin: 1rem;
+        height: 100px;
+        width: auto;
+    }
+
+    .main-like-content img:hover{
+        transition: all 0.3s ease 0s;
+        transform:scale(1.05,1.05);
+    }
+
+    .main-portfolio{
+        margin: 0 4% 0 0;
+        padding: 1rem;
+        width:48%;
+        height:46%;
+        background-color: #FFA726;
+        box-shadow:1px 1px 10px #555;
+        border-radius: 3px;
+        clear:left;
+        float: left;
+    }
+
+    .main-portfolio h2{
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    .main-portfolio-content{
+        margin:auto;
+        padding: 1rem 0;
+        width: 20rem;
+        text-align: center;
+        vertical-align: middle;
+        transform: 0 0 4px 0;
+    }
+
+    .main-portfolio-content a{
+        text-decoration: none;
+    }
+
+    .main-portfolio-content p{
+        margin: 1rem auto;
+        font-size: 1.1rem;
+        color: #FFF;
+    }
+
+    .main-portfolio-content-link{
+        height:auto;
+        width:auto;
+    }
+
+    .main-portfolio-content-link :hover{
+        transition: all 0.3s ease 0s;
+        transform:scale(1.03,1.03);
+    }
+
+    .main-contact{
+        margin: 0 0 0 0rem;
+        padding: 1rem;
+        width:48%;
+        height:46%;
+        background-color: #039BE5;
+        box-shadow:1px 1px 10px #555;
+        border-radius: 3px;
+        float: left;
+    }
+
+    .main-contact h2{
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    .main-contact-form-input{
+        padding: 0.4rem;
+        font-size: 1rem;
+        width:60%;
+        border: none;
+        border-radius: 3px;
+        box-shadow: #555;
+    }
+
+    .main-contact-form-textarea{
+        padding: 0.4rem;
+        width:60%;
+        font-size: 1rem;
+        border: none;
+        border-radius: 3px;
+        box-shadow: inner #555;
+    }
+
+    .main-contact-form-submit{
+        margin: 1rem;
+        width:20%;
+        color: #FFF;
+        font-size: 1rem;
+        border: solid 1px ;
+        border-radius: 3px;
+        background-color: #039BE5;
+        cursor: pointer;
+    }
+
+    .main-contact-form-submit :hover{
+        transition: all 0.3s ease 0s;
+        transform:scale(1.03,1.03);
+    }
+}
